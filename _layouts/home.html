@@ -25,7 +25,8 @@ layout: default
     <div class="post-list">
       {%- for post in site.posts limit: 2 offset: 1 -%}
       <div class="post-card">
-        <img src="{{post.image}}" alt="post-image">
+        {% assign post_image_path = site.baseurl + post.image %}
+        <img src="{{post_image_path}}" alt="post-image">
         <h3>
           <a class="post-link" href="{{ post.url | relative_url }}">
             {{ post.title | escape }}

@@ -22,8 +22,8 @@ title: ramu-site
 email: ramu-site@example.com
 description: >- # this means to ignore newlines until "baseurl:"
   This site is a platform for voices of resistance—amplifying struggles against caste, class, and capitalist oppression. It stands in solidarity with workers, peasants, and the marginalized, advocating justice, equality, and collective liberation. Rooted in activist and communist ideals, it aims to inspire radical change through dialogue and action.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/ramu-site" # the subpath of your site, e.g. /blog
+url: "https://anil1221.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: ramu_site
 github_username:  ramu-site
 
